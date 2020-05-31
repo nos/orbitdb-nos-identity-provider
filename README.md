@@ -1,5 +1,5 @@
 # orbitdb-nos-identity-provider
-OrbitDB Identity Provider for nOS Network and other ARK Core-based blockchains.
+OrbitDB and AvionDB Identity Provider for nOS Network and other ARK Core-based blockchains.
 
 ## Installing
 
