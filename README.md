@@ -12,14 +12,7 @@ const IPFS = require('ipfs')
 const OrbitDB = require('orbit-db')
 const NetworkIdentity = require('orbitdb-nos-identity-provider').default;
 
-return await IPFS.create({
-        repo: './ipfs3', config: {
-            Addresses: {
-                Swarm: [`/ip4/0.0.0.0/tcp/4102`, `/ip4/127.0.0.1/tcp/4103`],
-            },
-        }
-    });
-};
+return await IPFS.create({ repo: './ipfs' });
 
 initIPFSInstance().then(async ipfs => {
         // Add our Identity Provider
