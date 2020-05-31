@@ -10,7 +10,7 @@ OrbitDB Identity Provider for nOS Network and other ARK Core-based blockchains.
 ```js
 const IPFS = require('ipfs')
 const OrbitDB = require('orbit-db')
-const NetworkIdentity = require('orbitdb-nos-identity-provider').default;
+const NetworkIdentity = require('@nosplatform/orbitdb-nos-identity-provider').default;
 
 const initIPFSInstance = async () => {
     return await IPFS.create({
