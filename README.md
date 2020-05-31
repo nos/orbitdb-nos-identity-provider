@@ -12,7 +12,11 @@ const IPFS = require('ipfs')
 const OrbitDB = require('orbit-db')
 const NetworkIdentity = require('orbitdb-nos-identity-provider').default;
 
-return await IPFS.create({ repo: './ipfs' });
+const initIPFSInstance = async () => {
+    return await IPFS.create({
+        repo: './ipfs'
+    });
+};
 
 initIPFSInstance().then(async ipfs => {
         // Add our Identity Provider
