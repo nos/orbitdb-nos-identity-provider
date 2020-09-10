@@ -1,6 +1,6 @@
 {
   "name": "@nosplatform/orbitdb-nos-identity-provider",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OrbitDB Identity Provider for nOS Network and other ARK Core-based blockchains.",
   "main": "index.js",
   "repository": "https://github.com/nos/orbitdb-nos-identity-provider",
