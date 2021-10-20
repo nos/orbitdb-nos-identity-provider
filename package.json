@@ -7,7 +7,7 @@
   "author": "Dean van Dugteren (dean@nos.io)",
   "license": "MIT",
   "dependencies": {
-    "@arkecosystem/crypto": "^2.7.24",
+    "@arkecosystem/crypto": "^3.0.0",
     "orbit-db-identity-provider": "^0.3.1"
   },
   "publishConfig": {
